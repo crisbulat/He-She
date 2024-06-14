@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - He&She</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <!-- Antetul paginii -->
+        <nav>
+            <ul id="nav-list">
+                <!-- Lista de navigație -->
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="products.html">Produse</a></li>
+                <li><a href="about.html">Despre Noi</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <button id="menu-toggle">Meniu</button> <!-- Butonul de meniu mobil -->
+    </header>
+
+    <main>
+        <!-- Formularul de contact -->
+        <h1>Contactați-ne</h1>
+        <form id="contact-form" action="#" method="POST">
+            <label for="name">Nume:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mesaj:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Trimite</button>
+        </form>
+    </main>
+
+    <footer>
+        <!-- Subsolul paginii -->
+        <p>&copy; 2024 He&She. Toate drepturile rezervate.</p>
+    </footer>
+
+    <!-- Includem fișierul JavaScript la sfârșitul paginii -->
+    <script src="scripts.js"></script>
+</body>
+</html>
